@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from './Header';
+import Statement from './Statement';
+import Alternatives from './Alternatives';
 
 class App extends React.Component {
  render() {
     return (
       <div className="ui container">
         <Header />
-        <div className="ui content">Statement</div>
-        <div>Alternatives</div>
+        <Statement />
+        <Alternatives />
       </div>
     );
   }
