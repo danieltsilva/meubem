@@ -1,7 +1,7 @@
-package com.meubem.core.controller;
+package com.meubem.core.controllers;
 
-import com.meubem.core.model.Question;
-import com.meubem.core.repo.QuestionRepository;
+import com.meubem.core.models.Question;
+import com.meubem.core.repositories.QuestionRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;

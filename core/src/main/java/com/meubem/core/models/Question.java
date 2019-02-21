@@ -1,13 +1,9 @@
-package com.meubem.core.model;
+package com.meubem.core.models;
 
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Id;
-import javax.persistence.Entity;
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import javax.persistence.*;
 
 @Getter
 @Setter
@@ -21,8 +17,14 @@ public class Question {
     @Column
     private String institution;
 
-    @Column
+    @Column(columnDefinition="CLOB NOT NULL")
+    @Lob
     private String statement;
 
+//    @OneToMany
+//    private List<Alternative> alternatives;
+//
+//    @OneToOne
+//    private Alternative correct;
 }
 

@@ -12,13 +12,15 @@
 	<artifactId>core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>core</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Exams Project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 		<junit.version>4.12</junit.version>
 		<logback.version>1.2.3</logback.version>
 		<lombok.version>1.18.6</lombok.version>
+		<spring-orm.version>5.1.5.RELEASE</spring-orm.version>
+		<hibernate.version>5.4.1.Final</hibernate.version>
 	</properties>
 
 	<dependencies>
